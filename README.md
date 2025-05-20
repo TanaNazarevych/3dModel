@@ -7,8 +7,7 @@ This project simulates the rhythmic pulsing of a human heart — ideal for educa
 
 ## 🌐 Live Demo
 
-🚀 [Check it out here](https://your-live-link-goes-here.com)  
-*Replace this with your Netlify, Vercel, or GitHub Pages link.*
+[🚀 [Check it out here]](https://interactive-heart-beat.vercel.app/)
 
 ---
 
