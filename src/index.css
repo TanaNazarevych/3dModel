@@ -1,0 +1,115 @@
+/* 🎀 Import Chewy Font */
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+body, h1, button, input, p {
+    font-family: "Chewy", cursive;
+}
+
+/* 💖 Title Styling */
+h1 {
+    font-size: 3.2rem; /* Larger for impact */
+    font-weight: 900; /* Extra bold */
+    color: #672c2c; /* Deep red-brown */
+    text-shadow: 4px 4px 8px rgba(160, 75, 75, 0.6); /* Stronger glow effect */
+    letter-spacing: 2px; /* More spacing for emphasis */
+    display: flex;
+    justify-content: center;
+}
+
+/* 🌸 Control Panel */
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: #f8d5d1; /* Warm soft pink */
+    padding: 25px;
+    border-radius: 20px;
+    width: 40%;
+    margin: 20px auto;
+    box-shadow: 3px 3px 12px rgba(160, 75, 75, 0.4);
+
+    /* ✨ Move slightly left */
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* 🔘 Start & Stop Button Group */
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* 💓 Buttons */
+button {
+    padding: 14px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(160, 75, 75, 0.3);
+}
+
+/* 🔴 Start & Stop Buttons */
+#start {
+    background-color: #d58b78; /* Soft warm brown */
+    color: white;
+}
+
+#stop {
+    background-color: #a04b4b; /* Muted warm red */
+    color: white;
+}
+
+/* 💕 BPM Buttons */
+.bpm-btn {
+    background-color: #e6a6a1; /* Soft pinkish-red */
+    color: white;
+}
+
+/* 🎵 BPM Button Group */
+.bpm-btn-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* ✨ Button Hover Effect */
+button:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+    box-shadow: 0px 4px 12px rgba(160, 75, 75, 0.3);
+}
+
+/* 🎀 Custom BPM Input Group */
+.custom-bpm-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* 🎀 Input Fields */
+input {
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #a04b4b;
+    border-radius: 10px;
+    background: #f7e4e1;
+    color: #672c2c;
+}
+
+/* 🫀 3D Heart Container */
+#heart-container {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40vw;
+    height: auto;
+    pointer-events: none;
+}

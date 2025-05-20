@@ -1,0 +1,49 @@
+# 🫀 InteractiveHeartBeat
+
+An interactive 3D heartbeat animation built using **Three.js** and **Vite**.  
+This project simulates the rhythmic pulsing of a human heart — ideal for educational demos or portfolio projects.
+
+---
+
+## 🌐 Live Demo
+
+🚀 [Check it out here](https://your-live-link-goes-here.com)  
+*(Replace this with your Netlify/Vercel/GitHub Pages link)*
+
+---
+
+## Features
+
+- 💓 Real-time heartbeat animation in 3D
+- 🧠 Clean, modular code using ES6+
+- ⚡️ Super fast dev environment with Vite
+- 🔁 Responsive and looped pulse effect
+- 🎨 Perfect for UI demos or WebGL experiments
+
+---
+
+## Tech Stack
+
+| Tech        | Description                                  |
+|-------------|----------------------------------------------|
+| [Three.js]| 3D rendering engine for creating the heartbeat |
+| [Vite]| Fast dev server and build tool |
+| JavaScript | Modern JavaScript for animation logic |
+| HTML5 & CSS3 | Basic layout and styling |
+
+---
+
+## Getting Started
+
+To run this project locally:
+
+```bash
+# 1. Clone the repo
+git clone git@github.com:TanaNazarevych/InteractiveHeartBeat.git
+cd InteractiveHeartBeat
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev

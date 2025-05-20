@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Heartbeat Simulation</title>
+    <link rel="stylesheet" href="./src/index.css">
+</head>
+<body>
+
+    <h1>3D Human Heart - Interactive Heartbeat</h1>
+
+    <!-- Control Panel -->
+    <div id="controls">
+        <!-- Age Group Selection -->
+        <p>Select Age Group:</p>
+        <div class="bpm-btn-container">
+            <button class="bpm-btn" data-bpm="120">👶 Infant (120 BPM)</button>
+            <button class="bpm-btn" data-bpm="80">🧑 Adult (80 BPM)</button>
+            <button class="bpm-btn" data-bpm="60">👴 Elderly (60 BPM)</button>
+        </div>
+
+        <!-- Custom BPM Input -->
+        <p>Or enter custom BPM:</p>
+        <div class="custom-bpm-container">
+            <input type="number" id="custom-bpm" value="60" min="30" max="200">
+            <button id="set-bpm">Set BPM</button>
+        </div>
+
+              <!-- Start & Stop Buttons -->
+              <div class="button-group">
+                <button id="start"> Start</button>
+                <button id="stop"> Stop</button>
+            </div>
+    </div>
+
+    <!-- 3D Heart Rendering -->
+    <div id="heart-container"></div>
+
+    <script type="module" src="./src/main.js"></script>
+
+</body>
+</html>
